@@ -7,7 +7,7 @@ export default function Movies(props) {
     return (
         <div style={{textAlign: 'center'}}>
             <Menu />
-            <h1>Movies !!!</h1>
+            <h1>You are in Movies page.</h1>
 
             {
                 movies.map((movie, index) => (
